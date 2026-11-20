@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Dataset and downloaded archives (do not commit the Kaggle dataset)
+data/
+*.zip
+kaggle.json
+
+# Training outputs and model weights
+artifacts/*.keras
+artifacts/*.h5
+artifacts/*.weights.h5
+artifacts/*.csv
+artifacts/*.json
+artifacts/*.png
+results/*.json
+results/*.png
+
+# Notebook checkpoints
+.ipynb_checkpoints/
