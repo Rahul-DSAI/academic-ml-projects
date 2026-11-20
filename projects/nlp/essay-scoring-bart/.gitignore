@@ -1,9 +1,33 @@
+# Python
 __pycache__/
 *.py[cod]
-*.ipynb_checkpoints/
+.pytest_cache/
 .venv/
 venv/
-models/
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset files: obtain separately under the dataset's applicable terms
+data/
+
+# Model checkpoints and training outputs
+artifacts/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Experiment tracking and local outputs
 wandb/
-results/*/
+runs/
+outputs/
+logs/
 *.log
+.DS_Store
+Thumbs.db

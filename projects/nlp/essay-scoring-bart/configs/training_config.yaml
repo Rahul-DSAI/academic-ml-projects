@@ -1,12 +1,25 @@
-seed: 42
-model_name: facebook/bart-base
-train_csv: data/train.csv
-text_column: essay
-score_column: score
-max_length: 1024
-batch_size: 8
-epochs: 5
-learning_rate: 2.0e-5
+# Configuration based on the 2024 source implementation.
+# The cleaned pipeline adds a validation split and deterministic evaluation.
+data_path: data/raw/train.tsv
+output_dir: artifacts
+model_name_or_path: facebook/bart-large-cnn
+num_labels: 4
+max_length: 512
+
+# Lower per-step batch size than the original source script to make the
+# BART-large checkpoint more practical on constrained GPUs.
+train_batch_size: 2
+eval_batch_size: 4
+gradient_accumulation_steps: 4
+num_train_epochs: 10
+learning_rate: 0.00005
 weight_decay: 0.01
 warmup_ratio: 0.1
-output_dir: results/best_model
+max_grad_norm: 1.0
+
+test_size: 0.1
+validation_size: 0.1
+random_seed: 42
+num_workers: 0
+use_amp: true
+early_stopping_patience: 3
