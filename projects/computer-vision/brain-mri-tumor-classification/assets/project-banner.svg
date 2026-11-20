@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="390" viewBox="0 0 1400 390" role="img" aria-labelledby="title desc">
+  <title id="title">Brain MRI Tumour Classification</title>
+  <desc id="desc">A dark blue scientific banner with a stylized MRI scan and connected neural network nodes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#091326"/>
+      <stop offset="0.55" stop-color="#112949"/>
+      <stop offset="1" stop-color="#16465b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="scanClip"><circle cx="1110" cy="190" r="126"/></clipPath>
+  </defs>
+  <rect width="1400" height="390" rx="28" fill="url(#bg)"/>
+  <circle cx="1105" cy="190" r="215" fill="url(#glow)"/>
+  <path d="M0 320 C260 270 410 420 690 332 S1120 265 1400 320" fill="none" stroke="#7dd3fc" stroke-opacity=".12" stroke-width="2"/>
+  <path d="M0 344 C260 294 410 444 690 356 S1120 289 1400 344" fill="none" stroke="#7dd3fc" stroke-opacity=".08" stroke-width="2"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="86" y="112" fill="#99f6e4" font-size="19" font-weight="700" letter-spacing="4">COMPUTER VISION • DEEP LEARNING</text>
+    <text x="82" y="190" fill="#f8fafc" font-size="59" font-weight="800">BRAIN MRI</text>
+    <text x="82" y="254" fill="#f8fafc" font-size="59" font-weight="800">TUMOUR CLASSIFICATION</text>
+    <text x="86" y="300" fill="#cbd5e1" font-size="22">A four-class CNN image-classification project</text>
+    <g transform="translate(86 328)">
+      <rect width="144" height="34" rx="17" fill="#164e63" stroke="#5eead4" stroke-opacity=".5"/>
+      <text x="72" y="23" text-anchor="middle" fill="#ccfbf1" font-size="15" font-weight="700">TensorFlow / Keras</text>
+      <rect x="158" width="122" height="34" rx="17" fill="#1e3a5f" stroke="#93c5fd" stroke-opacity=".5"/>
+      <text x="219" y="23" text-anchor="middle" fill="#dbeafe" font-size="15" font-weight="700">128 × 128 RGB</text>
+      <rect x="294" width="105" height="34" rx="17" fill="#1e3a5f" stroke="#93c5fd" stroke-opacity=".5"/>
+      <text x="346" y="23" text-anchor="middle" fill="#dbeafe" font-size="15" font-weight="700">4 classes</text>
+    </g>
+  </g>
+  <g clip-path="url(#scanClip)">
+    <circle cx="1110" cy="190" r="126" fill="#071526" stroke="#7dd3fc" stroke-width="2"/>
+    <circle cx="1110" cy="190" r="105" fill="none" stroke="#7dd3fc" stroke-opacity=".24" stroke-width="2"/>
+    <circle cx="1110" cy="190" r="82" fill="none" stroke="#7dd3fc" stroke-opacity=".16" stroke-width="2"/>
+    <path d="M1110 100 C1061 82 1025 119 1039 157 C1006 180 1020 225 1051 237 C1064 276 1100 285 1110 266 C1120 285 1156 276 1169 237 C1200 225 1214 180 1181 157 C1195 119 1159 82 1110 100Z" fill="#153653" stroke="#a5f3fc" stroke-width="3" stroke-opacity=".85"/>
+    <path d="M1110 105 C1086 130 1085 159 1098 180 C1071 191 1066 218 1084 245 M1110 105 C1134 130 1135 159 1122 180 C1149 191 1154 218 1136 245 M1110 117 L1110 258 M1049 158 C1073 154 1086 164 1098 180 M1171 158 C1147 154 1134 164 1122 180 M1058 232 C1071 217 1080 214 1087 211 M1162 232 C1149 217 1140 214 1133 211" fill="none" stroke="#67e8f9" stroke-width="3" stroke-linecap="round" opacity=".72"/>
+    <g fill="#a7f3d0" stroke="#0f766e" stroke-width="2">
+      <circle cx="1051" cy="158" r="6"/><circle cx="1098" cy="180" r="6"/><circle cx="1122" cy="180" r="6"/><circle cx="1171" cy="158" r="6"/><circle cx="1087" cy="211" r="6"/><circle cx="1133" cy="211" r="6"/><circle cx="1110" cy="258" r="6"/>
+    </g>
+  </g>
+  <circle cx="1110" cy="190" r="137" fill="none" stroke="url(#accent)" stroke-width="3" stroke-dasharray="8 11" opacity=".7"/>
+  <g fill="#7dd3fc" opacity=".75"><circle cx="944" cy="94" r="4"/><circle cx="1269" cy="94" r="4"/><circle cx="1282" cy="280" r="3"/><circle cx="954" cy="286" r="3"/></g>
+  <g stroke="#67e8f9" stroke-width="1.5" opacity=".38"><path d="M944 94 L977 112 L1003 108 M1269 94 L1245 120 L1225 115 M1282 280 L1250 261 L1224 267 M954 286 L977 259 L1000 264" fill="none"/></g>
+</svg>

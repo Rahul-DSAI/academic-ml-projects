@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="470" viewBox="0 0 1500 470" role="img" aria-labelledby="title desc">
+<title id="title">CNN model architecture</title><desc id="desc">128 by 128 RGB input passes through four convolution, batch normalization, max pooling and dropout blocks, then a dense classifier with four softmax outputs.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fafc"/><stop offset="1" stop-color="#eaf2fb"/></linearGradient>
+ <linearGradient id="conv" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0f766e"/><stop offset="1" stop-color="#0e7490"/></linearGradient>
+ <linearGradient id="dense" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1d4ed8"/><stop offset="1" stop-color="#4338ca"/></linearGradient>
+ <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#0f172a" flood-opacity=".12"/></filter>
+</defs>
+<rect width="1500" height="470" rx="26" fill="url(#bg)"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+ <text x="60" y="56" fill="#0f172a" font-size="28" font-weight="800">CNN architecture • 128 × 128 × 3 input</text>
+ <text x="60" y="86" fill="#475569" font-size="16">Feature extraction → spatial downsampling → dense classification</text>
+ <!-- input -->
+ <g filter="url(#shadow)"><rect x="45" y="151" width="170" height="190" rx="18" fill="#0f172a"/><rect x="62" y="169" width="136" height="106" rx="12" fill="#1e293b" stroke="#7dd3fc" stroke-width="2"/>
+ <g stroke="#67e8f9" stroke-width="1.5" opacity=".8"><path d="M78 220 C90 190 111 191 128 211 C146 190 169 196 182 225 C163 247 147 250 128 239 C108 251 91 244 78 220Z" fill="#155e75"/><path d="M128 193 L128 246 M90 218 L111 215 L128 229 L150 212 L173 222" fill="none"/></g>
+ <text x="130" y="302" text-anchor="middle" fill="#f8fafc" font-size="18" font-weight="700">MRI image</text><text x="130" y="326" text-anchor="middle" fill="#cbd5e1" font-size="15">128 × 128 × 3</text></g>
+ <path d="M218 246 H251" stroke="#64748b" stroke-width="3"/><path d="M242 237 L252 246 L242 255" fill="none" stroke="#64748b" stroke-width="3"/>
+ <!-- conv blocks -->
+ <g filter="url(#shadow)">
+  <rect x="260" y="151" width="218" height="190" rx="18" fill="url(#conv)"/>
+  <text x="369" y="185" text-anchor="middle" fill="#ecfeff" font-size="20" font-weight="800">Block 1</text><text x="369" y="222" text-anchor="middle" fill="#ffffff" font-size="17">Conv2D • 32 filters</text><text x="369" y="250" text-anchor="middle" fill="#ccfbf1" font-size="15">Batch Normalization</text><text x="369" y="278" text-anchor="middle" fill="#ccfbf1" font-size="15">Max Pooling</text><text x="369" y="306" text-anchor="middle" fill="#ccfbf1" font-size="15">Dropout (0.25)</text>
+  <rect x="505" y="151" width="218" height="190" rx="18" fill="url(#conv)"/>
+  <text x="614" y="185" text-anchor="middle" fill="#ecfeff" font-size="20" font-weight="800">Block 2</text><text x="614" y="222" text-anchor="middle" fill="#ffffff" font-size="17">Conv2D • 64 filters</text><text x="614" y="250" text-anchor="middle" fill="#ccfbf1" font-size="15">Batch Normalization</text><text x="614" y="278" text-anchor="middle" fill="#ccfbf1" font-size="15">Max Pooling</text><text x="614" y="306" text-anchor="middle" fill="#ccfbf1" font-size="15">Dropout (0.25)</text>
+  <rect x="750" y="151" width="218" height="190" rx="18" fill="url(#conv)"/>
+  <text x="859" y="185" text-anchor="middle" fill="#ecfeff" font-size="20" font-weight="800">Block 3</text><text x="859" y="222" text-anchor="middle" fill="#ffffff" font-size="17">Conv2D • 128 filters</text><text x="859" y="250" text-anchor="middle" fill="#ccfbf1" font-size="15">Batch Normalization</text><text x="859" y="278" text-anchor="middle" fill="#ccfbf1" font-size="15">Max Pooling</text><text x="859" y="306" text-anchor="middle" fill="#ccfbf1" font-size="15">Dropout (0.25)</text>
+  <rect x="995" y="151" width="218" height="190" rx="18" fill="url(#conv)"/>
+  <text x="1104" y="185" text-anchor="middle" fill="#ecfeff" font-size="20" font-weight="800">Block 4</text><text x="1104" y="222" text-anchor="middle" fill="#ffffff" font-size="17">Conv2D • 128 filters</text><text x="1104" y="250" text-anchor="middle" fill="#ccfbf1" font-size="15">Batch Normalization</text><text x="1104" y="278" text-anchor="middle" fill="#ccfbf1" font-size="15">Max Pooling</text><text x="1104" y="306" text-anchor="middle" fill="#ccfbf1" font-size="15">Dropout (0.25)</text>
+  <rect x="1240" y="151" width="215" height="190" rx="18" fill="url(#dense)"/>
+  <text x="1347" y="185" text-anchor="middle" fill="#eef2ff" font-size="20" font-weight="800">Classifier</text><text x="1347" y="222" text-anchor="middle" fill="#ffffff" font-size="17">Flatten</text><text x="1347" y="250" text-anchor="middle" fill="#e0e7ff" font-size="15">Dense • 512 (ReLU)</text><text x="1347" y="278" text-anchor="middle" fill="#e0e7ff" font-size="15">Dropout (0.5)</text><text x="1347" y="306" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">Softmax • 4 classes</text>
+ </g>
+ <g stroke="#64748b" stroke-width="3" fill="none"><path d="M480 246 H498 M725 246 H743 M970 246 H988 M1215 246 H1233"/><path d="M490 237 L500 246 L490 255 M735 237 L745 246 L735 255 M980 237 L990 246 L980 255 M1225 237 L1235 246 L1225 255"/></g>
+ <text x="750" y="402" text-anchor="middle" fill="#334155" font-size="17" font-weight="700">Adam optimizer  •  Sparse categorical cross-entropy  •  ReLU activations  •  Softmax output</text>
+ <text x="750" y="432" text-anchor="middle" fill="#64748b" font-size="14">Architecture diagram reflects the cleaned implementation in src/model.py</text>
+</g>
+</svg>
