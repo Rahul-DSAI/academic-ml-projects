@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+kaggle.json
+data/raw/*
+!data/raw/.gitkeep
+models/*.keras
+models/*.h5
+reports/*.json
+reports/*.csv
+reports/*.png
