@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Face and eye detection workflow</title>
+  <desc id="desc">Image or webcam input is converted to grayscale, passed through Haar cascade face and eye detection, then rendered with bounding boxes.</desc>
+  <defs><linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10263a"/><stop offset="1" stop-color="#16384b"/></linearGradient><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L9 3 L0 6Z" fill="#5eead4"/></marker></defs>
+  <rect width="1200" height="300" rx="22" fill="#081725"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g><rect x="25" y="85" width="205" height="125" rx="16" fill="url(#panel)" stroke="#35556c"/><text x="127" y="132" fill="#f8fafc" font-size="20" font-weight="700">Input</text><text x="127" y="164" fill="#bfced9" font-size="15">Image / Webcam</text></g>
+    <path d="M232 147 H275" stroke="#5eead4" stroke-width="3" marker-end="url(#arrow)"/>
+    <g><rect x="285" y="85" width="205" height="125" rx="16" fill="url(#panel)" stroke="#35556c"/><text x="387" y="132" fill="#f8fafc" font-size="20" font-weight="700">Preprocessing</text><text x="387" y="164" fill="#bfced9" font-size="15">Grayscale + equalize</text></g>
+    <path d="M492 147 H535" stroke="#5eead4" stroke-width="3" marker-end="url(#arrow)"/>
+    <g><rect x="545" y="85" width="205" height="125" rx="16" fill="url(#panel)" stroke="#2dd4bf" stroke-width="2"/><text x="647" y="132" fill="#5eead4" font-size="20" font-weight="700">Face cascade</text><text x="647" y="164" fill="#bfced9" font-size="15">Frontal-face regions</text></g>
+    <path d="M752 147 H795" stroke="#5eead4" stroke-width="3" marker-end="url(#arrow)"/>
+    <g><rect x="805" y="85" width="175" height="125" rx="16" fill="url(#panel)" stroke="#60a5fa" stroke-width="2"/><text x="892" y="132" fill="#93c5fd" font-size="20" font-weight="700">Eye cascade</text><text x="892" y="164" fill="#bfced9" font-size="15">Within face regions</text></g>
+    <path d="M982 147 H1020" stroke="#5eead4" stroke-width="3" marker-end="url(#arrow)"/>
+    <g><rect x="1030" y="85" width="145" height="125" rx="16" fill="url(#panel)" stroke="#35556c"/><text x="1102" y="132" fill="#f8fafc" font-size="19" font-weight="700">Output</text><text x="1102" y="164" fill="#bfced9" font-size="14">Boxes + counts</text></g>
+    <text x="600" y="258" fill="#91a7b8" font-size="14">Classical detection pipeline using OpenCV Haar Cascade Classifiers</text>
+  </g>
+</svg>

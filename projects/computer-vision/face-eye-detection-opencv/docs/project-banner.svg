@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">OpenCV Face and Eye Detection</title>
+  <desc id="desc">A dark technology banner with a stylized face outline and detection rectangles.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071526"/><stop offset="1" stop-color="#102c3d"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#2dd4bf"/><stop offset="1" stop-color="#60a5fa"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="340" rx="26" fill="url(#bg)"/>
+  <circle cx="1020" cy="90" r="170" fill="#0ea5a4" opacity=".08"/>
+  <circle cx="1100" cy="300" r="130" fill="#60a5fa" opacity=".08"/>
+  <text x="76" y="105" fill="#5eead4" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="5">COMPUTER VISION PROJECT</text>
+  <text x="76" y="178" fill="#f8fafc" font-family="Arial, sans-serif" font-size="51" font-weight="700">Face &amp; Eye Detection</text>
+  <text x="78" y="225" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="25">Classical Haar Cascades · OpenCV · Webcam</text>
+  <rect x="78" y="263" width="265" height="5" rx="3" fill="url(#accent)"/>
+  <g transform="translate(850 24)" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="55" y="25" width="220" height="270" rx="22" fill="#0b2031" stroke="#31546b" stroke-width="2"/>
+    <path d="M165 76 C110 76 94 124 100 173 C105 218 127 246 165 251 C203 246 225 218 230 173 C236 124 220 76 165 76Z" fill="#14364a" stroke="#8ab7c9" stroke-width="3"/>
+    <path d="M128 154 Q143 145 153 154 M177 154 Q188 145 202 154" fill="none" stroke="#cce7ef" stroke-width="4"/>
+    <path d="M165 160 L158 190 L171 192 M148 213 Q165 222 182 213" fill="none" stroke="#cce7ef" stroke-width="3"/>
+    <rect x="89" y="65" width="152" height="205" rx="8" fill="none" stroke="#2dd4bf" stroke-width="4" filter="url(#glow)"/>
+    <rect x="115" y="137" width="46" height="28" rx="4" fill="none" stroke="#60a5fa" stroke-width="3"/>
+    <rect x="171" y="137" width="46" height="28" rx="4" fill="none" stroke="#60a5fa" stroke-width="3"/>
+    <text x="275" y="80" fill="#5eead4" font-family="Arial, sans-serif" font-size="12">FACE</text>
+    <path d="M241 86 L266 86" stroke="#5eead4" stroke-width="2"/>
+    <text x="275" y="148" fill="#93c5fd" font-family="Arial, sans-serif" font-size="12">EYES</text>
+    <path d="M217 151 L266 151" stroke="#93c5fd" stroke-width="2"/>
+  </g>
+</svg>
