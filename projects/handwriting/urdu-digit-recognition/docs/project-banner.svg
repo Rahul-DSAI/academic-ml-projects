@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="380" viewBox="0 0 1400 380">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#071a2b"/><stop offset="1" stop-color="#123f4a"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#20c997" stop-opacity=".3"/><stop offset="1" stop-color="#20c997" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1400" height="380" rx="28" fill="url(#bg)"/>
+<circle cx="1120" cy="70" r="320" fill="url(#glow)"/>
+<g fill="#e9fff8" opacity=".93" font-family="Segoe UI, Arial, sans-serif">
+  <text x="78" y="115" font-size="25" letter-spacing="6" fill="#57e0b2">COMPUTER VISION · DEEP LEARNING</text>
+  <text x="78" y="205" font-size="66" font-weight="700">Urdu Handwriting</text>
+  <text x="78" y="280" font-size="66" font-weight="700">Recognition</text>
+  <text x="82" y="330" font-size="24" fill="#a9c8cb">Character classification with TensorFlow · Digit recognition with PyTorch</text>
+</g>
+<g transform="translate(1020 95)" fill="none" stroke="#80efd0" stroke-width="4" opacity=".9">
+  <rect x="0" y="0" width="285" height="185" rx="20" fill="#0b2834" stroke-opacity=".7"/>
+  <g stroke="#80efd0" stroke-width="2" opacity=".5">
+    <path d="M28 42h228M28 92h228M28 142h228M76 20v145M145 20v145M214 20v145"/>
+  </g>
+  <g fill="#d9fff2" stroke="none" font-family="Arial, sans-serif" font-size="44" font-weight="700">
+    <text x="32" y="72">اردو</text><text x="38" y="135" font-size="35">۰ ۱ ۲ ۳</text>
+  </g>
+</g>
+</svg>

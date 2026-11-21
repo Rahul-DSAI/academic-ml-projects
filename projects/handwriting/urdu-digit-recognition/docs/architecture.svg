@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="570" viewBox="0 0 1200 570">
+<rect width="1200" height="570" rx="24" fill="#081a2a"/>
+<text x="600" y="52" fill="#e8f5f3" font-family="Arial" font-size="28" font-weight="700" text-anchor="middle">Two independent recognition pipelines</text>
+<g font-family="Arial" fill="#e8f5f3" text-anchor="middle">
+  <rect x="55" y="105" width="510" height="390" rx="22" fill="#102d3b" stroke="#41c9a0" stroke-width="2"/>
+  <text x="310" y="145" font-size="24" font-weight="700" fill="#74e6c4">URDU CHARACTERS · TENSORFLOW</text>
+  <rect x="100" y="180" width="420" height="52" rx="12" fill="#174b52"/><text x="310" y="213" font-size="19">Character folders · 40 classes</text>
+  <path d="M310 232v25" stroke="#74e6c4" stroke-width="3"/><path d="M301 248l9 10 9-10" fill="none" stroke="#74e6c4" stroke-width="3"/>
+  <rect x="100" y="270" width="420" height="52" rx="12" fill="#174b52"/><text x="310" y="303" font-size="19">28 × 28 RGB · normalize</text>
+  <path d="M310 322v25" stroke="#74e6c4" stroke-width="3"/><path d="M301 338l9 10 9-10" fill="none" stroke="#74e6c4" stroke-width="3"/>
+  <rect x="100" y="360" width="420" height="52" rx="12" fill="#174b52"/><text x="310" y="393" font-size="19">CNN · train · validate</text>
+  <path d="M310 412v25" stroke="#74e6c4" stroke-width="3"/><path d="M301 428l9 10 9-10" fill="none" stroke="#74e6c4" stroke-width="3"/>
+  <rect x="100" y="450" width="420" height="30" rx="10" fill="#11614e"/><text x="310" y="472" font-size="16">Character prediction + metrics</text>
+  <rect x="635" y="105" width="510" height="390" rx="22" fill="#102d3b" stroke="#f0a35e" stroke-width="2"/>
+  <text x="890" y="145" font-size="24" font-weight="700" fill="#ffc18b">URDU DIGITS · PYTORCH</text>
+  <rect x="680" y="180" width="420" height="52" rx="12" fill="#4d3a2c"/><text x="890" y="213" font-size="19">Digit folders · 10 classes</text>
+  <path d="M890 232v25" stroke="#ffc18b" stroke-width="3"/><path d="M881 248l9 10 9-10" fill="none" stroke="#ffc18b" stroke-width="3"/>
+  <rect x="680" y="270" width="420" height="52" rx="12" fill="#4d3a2c"/><text x="890" y="303" font-size="19">28 × 28 RGB · tensor transform</text>
+  <path d="M890 322v25" stroke="#ffc18b" stroke-width="3"/><path d="M881 338l9 10 9-10" fill="none" stroke="#ffc18b" stroke-width="3"/>
+  <rect x="680" y="360" width="420" height="52" rx="12" fill="#4d3a2c"/><text x="890" y="393" font-size="19">CNN · train · validate</text>
+  <path d="M890 412v25" stroke="#ffc18b" stroke-width="3"/><path d="M881 428l9 10 9-10" fill="none" stroke="#ffc18b" stroke-width="3"/>
+  <rect x="680" y="450" width="420" height="30" rx="10" fill="#80512b"/><text x="890" y="472" font-size="16">Digit prediction + metrics</text>
+</g>
+</svg>
