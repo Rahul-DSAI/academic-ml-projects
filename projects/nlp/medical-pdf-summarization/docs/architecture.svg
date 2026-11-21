@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380">
+<rect width="1200" height="380" rx="22" fill="#F5F8FC"/>
+<text x="600" y="45" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#17324D">BioBERT Extractive Summarization Pipeline</text>
+<g font-family="Arial" text-anchor="middle">
+<g><rect x="35" y="115" width="160" height="130" rx="16" fill="#DDEAF7" stroke="#4A759B" stroke-width="2"/><text x="115" y="165" font-size="20" font-weight="700" fill="#17324D">PDF</text><text x="115" y="195" font-size="15" fill="#36566F">Text extraction</text></g>
+<g><rect x="235" y="115" width="160" height="130" rx="16" fill="#E2F3EF" stroke="#3A8F7B" stroke-width="2"/><text x="315" y="165" font-size="20" font-weight="700" fill="#174A42">Sentences</text><text x="315" y="195" font-size="15" fill="#356C63">Segmentation</text></g>
+<g><rect x="435" y="115" width="160" height="130" rx="16" fill="#E8E5F8" stroke="#7568A8" stroke-width="2"/><text x="515" y="165" font-size="20" font-weight="700" fill="#3D356B">BioBERT</text><text x="515" y="195" font-size="15" fill="#5B5487">Sentence vectors</text></g>
+<g><rect x="635" y="115" width="160" height="130" rx="16" fill="#FFF0D9" stroke="#C58C38" stroke-width="2"/><text x="715" y="165" font-size="20" font-weight="700" fill="#6F4A13">Similarity</text><text x="715" y="195" font-size="15" fill="#89662D">Centrality scores</text></g>
+<g><rect x="835" y="115" width="150" height="130" rx="16" fill="#FCE4E5" stroke="#BA666D" stroke-width="2"/><text x="910" y="165" font-size="20" font-weight="700" fill="#6C3038">Select</text><text x="910" y="195" font-size="15" fill="#8A5057">Top sentences</text></g>
+<g><rect x="1025" y="115" width="140" height="130" rx="16" fill="#DDF0E1" stroke="#4B9460" stroke-width="2"/><text x="1095" y="165" font-size="20" font-weight="700" fill="#245632">Summary</text><text x="1095" y="195" font-size="15" fill="#3E704A">Source order</text></g>
+</g>
+<g stroke="#50677D" stroke-width="3" fill="none"><path d="M195 180h35m-9-8 9 8-9 8 M395 180h35m-9-8 9 8-9 8 M595 180h35m-9-8 9 8-9 8 M795 180h35m-9-8 9 8-9 8 M985 180h35m-9-8 9 8-9 8"/></g>
+<text x="600" y="305" text-anchor="middle" font-family="Arial" font-size="17" fill="#50677D">The selected summary sentences are copied from the input document — no new content is generated.</text>
+</svg>

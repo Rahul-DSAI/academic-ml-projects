@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.nltk_data/
+.env
+data/
+outputs/
+*.pdf
+*.pt
+*.bin
+*.safetensors
