@@ -1,0 +1,10 @@
+"""Shared project configuration."""
+
+CLASS_NAMES = tuple(str(i) for i in range(10))
+IMAGE_HEIGHT = 28
+IMAGE_WIDTH = 28
+IMAGE_SIZE = (IMAGE_HEIGHT, IMAGE_WIDTH)
+CHANNELS = 1
+DEFAULT_BATCH_SIZE = 64
+DEFAULT_EPOCHS = 30
+DEFAULT_SEED = 42

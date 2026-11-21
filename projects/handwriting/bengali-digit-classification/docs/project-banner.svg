@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101827"/><stop offset="1" stop-color="#174d4b"/></linearGradient></defs>
+  <rect width="1200" height="300" rx="24" fill="url(#g)"/>
+  <g fill="#49d6b0" font-family="Arial,sans-serif"><text x="70" y="92" font-size="18" letter-spacing="5" font-weight="700">COMPUTER VISION · DEEP LEARNING</text><text x="70" y="166" font-size="48" font-weight="700" fill="#f1f7f8">Bengali Handwritten</text><text x="70" y="222" font-size="48" font-weight="700" fill="#f1f7f8">Digit Recognition</text></g>
+  <g transform="translate(890 40)">
+    <rect x="0" y="0" width="250" height="220" rx="18" fill="#0d1b25" stroke="#49d6b0" stroke-width="2"/>
+    <g fill="#e9f5f0" font-family="Arial,sans-serif" font-size="30" text-anchor="middle" font-weight="700">
+      <text x="55" y="70">০</text><text x="125" y="70">১</text><text x="195" y="70">২</text>
+      <text x="55" y="125">৩</text><text x="125" y="125">৪</text><text x="195" y="125">৫</text>
+      <text x="55" y="180">৬</text><text x="125" y="180">৭</text><text x="195" y="180">৮</text>
+      <text x="125" y="208" font-size="22">৯</text>
+    </g>
+  </g>
+</svg>
