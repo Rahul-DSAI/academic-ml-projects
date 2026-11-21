@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "devanagari-digit-recognition"
+version = "1.0.0"
+description = "CNN-based recognition of handwritten Devanagari numerals using CMATERdb NPZ data"
+requires-python = ">=3.10"
+dependencies = ["tensorflow>=2.15", "numpy>=1.24", "scikit-learn>=1.3", "matplotlib>=3.7", "Pillow>=10.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

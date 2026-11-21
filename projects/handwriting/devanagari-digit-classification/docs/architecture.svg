@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="250" viewBox="0 0 1100 250">
+<rect width="1100" height="250" rx="20" fill="#0b1220"/>
+<g font-family="Arial,sans-serif" text-anchor="middle" fill="#f8fafc">
+<g fill="#14263a" stroke="#22c55e" stroke-width="2">
+<rect x="25" y="82" width="165" height="90" rx="12"/><rect x="230" y="82" width="165" height="90" rx="12"/><rect x="435" y="82" width="165" height="90" rx="12"/><rect x="640" y="82" width="165" height="90" rx="12"/><rect x="845" y="82" width="220" height="90" rx="12"/>
+</g>
+<g font-size="18" font-weight="bold"><text x="107" y="120">32×32 image</text><text x="107" y="146" font-size="14" font-weight="normal">NPZ input</text><text x="312" y="120">Preprocessing</text><text x="312" y="146" font-size="14" font-weight="normal">normalize + split</text><text x="517" y="120">CNN feature</text><text x="517" y="146" font-size="14" font-weight="normal">Conv + BatchNorm</text><text x="722" y="120">Dense layers</text><text x="722" y="146" font-size="14" font-weight="normal">10-class softmax</text><text x="955" y="120">Digit prediction</text><text x="955" y="146" font-size="14" font-weight="normal">class + confidence</text></g>
+<g stroke="#94a3b8" stroke-width="3" fill="none"><path d="M190 127h35m-9 -8 9 8 -9 8M395 127h35m-9 -8 9 8 -9 8M600 127h35m-9 -8 9 8 -9 8M805 127h35m-9 -8 9 8 -9 8"/></g>
+<text x="550" y="45" font-size="23" font-weight="bold" fill="#4ade80">Devanagari Handwritten Numeral Recognition</text>
+</g></svg>

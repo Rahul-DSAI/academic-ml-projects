@@ -1,0 +1,1 @@
+Before adding a license, confirm the licensing terms for the CMATERdb dataset and any source materials. The repository does not include the dataset. The project code can be licensed separately once the author has confirmed ownership and intended license.
