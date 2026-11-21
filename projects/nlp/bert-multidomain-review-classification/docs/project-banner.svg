@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#1d4ed8"/></linearGradient></defs>
+<rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+<g fill="#dbeafe" opacity=".14"><circle cx="1000" cy="40" r="140"/><circle cx="1080" cy="280" r="120"/><circle cx="120" cy="300" r="170"/></g>
+<text x="72" y="130" fill="#fff" font-family="Arial,sans-serif" font-size="47" font-weight="700">BERT Multi-Domain Review</text>
+<text x="72" y="188" fill="#fff" font-family="Arial,sans-serif" font-size="47" font-weight="700">Classification</text>
+<text x="76" y="240" fill="#bfdbfe" font-family="Arial,sans-serif" font-size="22">Fine-tuning BERT to classify product reviews across 25 domains</text>
+<rect x="902" y="92" width="220" height="130" rx="18" fill="#fff" opacity=".12" stroke="#bfdbfe"/>
+<text x="1012" y="142" fill="#fff" font-family="Arial,sans-serif" font-size="35" font-weight="700" text-anchor="middle">BERT</text>
+<text x="1012" y="180" fill="#dbeafe" font-family="Arial,sans-serif" font-size="16" text-anchor="middle">25 domains</text>
+</svg>
