@@ -39,7 +39,6 @@ object detection, NLP and intelligent applications.
 |---|---|
 | [Haar Cascade Face Detection](projects/computer-vision/haar-cascade-face-detection/) | Real-time face detection |
 | [Brain MRI Tumor Classification](projects/computer-vision/brain-mri-tumor-classification/) | MRI image classification |
-| [Crop Weed Detection using YOLO](projects/computer-vision/crop-weed-detection-yolo/) | Object detection for agricultural images |
 
 ### 3. Handwritten Digit Recognition
 
