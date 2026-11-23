@@ -39,6 +39,7 @@ object detection, NLP and intelligent applications.
 |---|---|
 | [Haar Cascade Face Detection](projects/computer-vision/haar-cascade-face-detection/) | Real-time face detection |
 | [Brain MRI Tumor Classification](projects/computer-vision/brain-mri-tumor-classification/) | MRI image classification |
+| [COVID X-ray Classification](projects/computer-vision/covid-xray-classification/) | Four-class chest X-ray image classification |
 
 ### 3. Handwritten Digit Recognition
 
