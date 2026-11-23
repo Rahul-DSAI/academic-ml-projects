@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "covid-xray-classification"
+version = "1.0.0"
+description = "Educational four-class CNN chest X-ray image classification project"
+requires-python = ">=3.10"
+dependencies = [
+  "tensorflow>=2.13,<2.19",
+  "numpy>=1.23",
+  "pillow>=9.0",
+  "scikit-learn>=1.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "ruff>=0.4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

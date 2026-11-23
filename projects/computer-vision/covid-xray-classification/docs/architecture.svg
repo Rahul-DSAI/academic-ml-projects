@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="360" viewBox="0 0 1100 360">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101827"/><stop offset="1" stop-color="#1d3548"/></linearGradient><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L0 6 L9 3 z" fill="#8bd3dd"/></marker></defs>
+<rect width="1100" height="360" rx="22" fill="url(#bg)"/>
+<text x="50" y="55" fill="#fff" font-size="27" font-family="Arial" font-weight="700">Chest X-ray classification workflow</text>
+<g font-family="Arial" text-anchor="middle">
+<g><rect x="40" y="130" width="175" height="112" rx="14" fill="#26465b" stroke="#78c6d0"/><text x="127" y="170" fill="#fff" font-size="18" font-weight="700">X-ray folders</text><text x="127" y="200" fill="#c8e7eb" font-size="14">4 class directories</text></g>
+<g><rect x="270" y="130" width="175" height="112" rx="14" fill="#26465b" stroke="#78c6d0"/><text x="357" y="170" fill="#fff" font-size="18" font-weight="700">Audit & split</text><text x="357" y="200" fill="#c8e7eb" font-size="14">hash / stratify</text></g>
+<g><rect x="500" y="130" width="175" height="112" rx="14" fill="#26465b" stroke="#78c6d0"/><text x="587" y="170" fill="#fff" font-size="18" font-weight="700">Preprocessing</text><text x="587" y="200" fill="#c8e7eb" font-size="14">resize / normalize</text></g>
+<g><rect x="730" y="130" width="145" height="112" rx="14" fill="#245b5a" stroke="#9ce0b1"/><text x="802" y="170" fill="#fff" font-size="18" font-weight="700">CNN</text><text x="802" y="200" fill="#d6f4e2" font-size="14">train / checkpoint</text></g>
+<g><rect x="925" y="130" width="140" height="112" rx="14" fill="#5a4930" stroke="#e8c98b"/><text x="995" y="170" fill="#fff" font-size="18" font-weight="700">Evaluation</text><text x="995" y="200" fill="#f7e7c6" font-size="14">held-out test</text></g>
+</g>
+<g stroke="#8bd3dd" stroke-width="3" fill="none" marker-end="url(#arrow)"><path d="M215 186 H260"/><path d="M445 186 H490"/><path d="M675 186 H720"/><path d="M875 186 H915"/></g>
+<text x="550" y="310" text-anchor="middle" fill="#b8ceda" font-family="Arial" font-size="15">Experimental image classifier • not for clinical diagnosis or treatment decisions</text>
+</svg>

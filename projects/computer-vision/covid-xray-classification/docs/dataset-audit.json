@@ -1,0 +1,32 @@
+{
+  "archive": "COVID-19.zip",
+  "raw_png_count": 4032,
+  "classes": {
+    "COVID": {
+      "raw_images": 1008,
+      "exact_duplicate_copies": 12,
+      "unique_images": 996
+    },
+    "Lung_Opacity": {
+      "raw_images": 1008,
+      "exact_duplicate_copies": 0,
+      "unique_images": 1008
+    },
+    "Normal": {
+      "raw_images": 1008,
+      "exact_duplicate_copies": 0,
+      "unique_images": 1008
+    },
+    "Viral Pneumonia": {
+      "raw_images": 1008,
+      "exact_duplicate_copies": 5,
+      "unique_images": 1003
+    }
+  },
+  "total_exact_duplicate_copies": 17,
+  "total_unique_images": 4015,
+  "sampled_dimensions": "299 x 299 pixels",
+  "sampled_image_modes": "Predominantly grayscale (L); a small number of RGB files in Viral Pneumonia",
+  "method": "SHA-256 exact-byte duplicate detection within and across class folders. Cross-class identical content causes the scanner to stop.",
+  "limitations": "No patient/study metadata available in supplied archive; no patient-level deduplication/splitting claim."
+}
