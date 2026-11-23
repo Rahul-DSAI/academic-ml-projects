@@ -1,0 +1,1 @@
+No software licence was supplied with the original archives. Add a licence only after deciding which rights you intend to grant. The included food/menu CSV files also have no stated data licence; verify redistribution rights before publishing the data publicly.
